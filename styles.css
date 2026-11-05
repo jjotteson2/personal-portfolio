@@ -1,0 +1,138 @@
+body {
+    background-color: #f4f6f8;
+    color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    color: #1f2937;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #2563eb;
+    margin: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+nav a:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 4px;
+}
+
+#about {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#projects {
+    background-color: #eff6ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-5px);
+}
+
+#contact {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main section {
+    margin: 20px 10px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    article {
+        transition: none;
+    }
+
+    article:hover {
+        transform: none;
+    }
+}
+
+article a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+article a:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 4px;
+}
+
+#contact a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+#contact a:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 4px;
+}
